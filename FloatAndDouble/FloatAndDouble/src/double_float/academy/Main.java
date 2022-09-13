@@ -12,16 +12,31 @@ public class Main {
         System.out.println("My minimum value = " + myMinDoubleValue);
         System.out.println("My maximum value = " + myMaxDoubleValue);
 
-        int myIntValue = 5;
-        double myDoubleValue = 5.25D; //use D or F bor respectively double types or float types
-        float myFloatValue = 3.21F;
+        int myIntValue = 5 / 3;
+        double myDoubleValue = 5.00 / 3.00; //use D or F bor respectively double types or float types
+        float myFloatValue = 5F / 3f;
 
         //another way is to use cast
 
         float mySecondFloat =  (float)3.32;
 
         System.out.println("Int: " + myIntValue);
-        System.out.println("Float: " + myIntValue);
+        System.out.println("Float: " + myFloatValue);
         System.out.println("Double: " + myDoubleValue);
+
+        //challenge
+
+        double pounds = 200d;
+        double kgs = pounds * 0.45359237;
+        System.out.println("Pounds: " + pounds + " in Kilograms: " + kgs);
+
+        double pi = 3.1415927d;
+        double anotherNumber = 3_000_000.4_567_890d;
+        System.out.println(pi);
+        System.out.println(anotherNumber);
+
+
+
+
     }
 }

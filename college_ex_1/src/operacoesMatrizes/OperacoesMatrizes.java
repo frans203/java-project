@@ -1,14 +1,25 @@
 package operacoesMatrizes;
 
+import java.util.Scanner;
+
 /* Exercício 13
  * Aluno: FRANCISCO SANTANA DE SOUSA JÚNIOR – Matricula: 20210025969
  */
 public class OperacoesMatrizes {
-    public static void arrayOperations(){
-        double matrix[][] = {
-                {2,0,3},
-                {5,6,7},
-                {9,10,11}};
+    public static void main(String args[]){
+        Scanner scan = new Scanner(System.in);
+        double matrix[][] = new double[3][3];
+
+        for(int i=0;i<3;i++){
+            for(int j=0;j<3;j++){
+                System.out.printf("Enter value for matrix[%d][%d]: ", i, j);
+                matrix[i][j] = scan.nextDouble();
+
+
+
+            }
+
+        }
 
         double sumBelow = 0;
         double sumAbove = 0;

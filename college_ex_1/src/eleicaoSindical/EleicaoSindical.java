@@ -5,13 +5,13 @@ import java.util.Scanner;
  * Aluno: FRANCISCO SANTANA DE SOUSA JÚNIOR – Matricula: 20210025969
  */
 public class EleicaoSindical {
-    public static void election(){
+    public static void main(String args[]){
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter votes of candidate A: ");
         int votesA = scan.nextInt();
         System.out.println("Enter votes of Candidate B: ");
         int votesB = scan.nextInt();
-        System.out.println("Enter voes of candidate B: ");
+        System.out.println("Enter voes of candidate C: ");
         int votesC = scan.nextInt();
         System.out.println("Enter null votes: ");
         int nullVotes = scan.nextInt();

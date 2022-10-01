@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Aluno: FRANCISCO SANTANA DE SOUSA JÚNIOR – Matricula: 20210025969
  */
 public class PontosDoQuadrante {
-    public static void points(){
+    public static void main(String args[]){
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a number for n: ");
         int n = scan.nextInt();

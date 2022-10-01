@@ -1,12 +1,14 @@
 package rhEmpresa;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 /* Exercício 9
  * Aluno: FRANCISCO SANTANA DE SOUSA JÚNIOR – Matricula: 20210025969
  */
 public class RhEmpresa {
-    public static void rhFunction(){
+    public static void main(String args[]){
         Scanner scan = new Scanner(System.in);
+        DecimalFormat df = new DecimalFormat("#.00");
         System.out.println("Enter n: ");
         int n = scan.nextInt();
         if(n>0 && n<80){
@@ -25,7 +27,7 @@ public class RhEmpresa {
                     biggerSalary = arraySalary[i];
                 }
             }
-            System.out.println("Bigger salary: " + biggerSalary);
+            System.out.println("Bigger salary: R$" + df.format(biggerSalary));
             System.out.println("Names of employees with salary bigger or equal to the bigger salary: ");
             for(int i=0;i<n;i++) {
                 if(arraySalary[i] >= biggerSalary){

@@ -4,7 +4,7 @@ package pesquisaMercado;
  * Aluno: FRANCISCO SANTANA DE SOUSA JÚNIOR – Matricula: 20210025969
  */
 public class PesquisaMercado {
-    public static void searchMarket(){
+    public static void main(String args[]){
         int quantityMale = 0; int quantityFemale = 0; int yesVotes = 0; int noVotes = 0;
 
         for(int i=1;i<=2000;i++){

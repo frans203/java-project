@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BufferReader/BufferReader.iml" filepath="$PROJECT_DIR$/BufferReader/BufferReader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ByteShortIntLong/ByteShortIntLong.iml" filepath="$PROJECT_DIR$/ByteShortIntLong/ByteShortIntLong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CharAndBool/CharAndBool.iml" filepath="$PROJECT_DIR$/CharAndBool/CharAndBool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FloatAndDouble/FloatAndDouble.iml" filepath="$PROJECT_DIR$/FloatAndDouble/FloatAndDouble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Methods/Methods.iml" filepath="$PROJECT_DIR$/Methods/Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operators/Operators.iml" filepath="$PROJECT_DIR$/Operators/Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scan/Scan.iml" filepath="$PROJECT_DIR$/Scan/Scan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/college-ex-01/college-ex-01.iml" filepath="$PROJECT_DIR$/college-ex-01/college-ex-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/college-ex-02/college-ex-02.iml" filepath="$PROJECT_DIR$/college-ex-02/college-ex-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/college-ex-03/college-ex-03.iml" filepath="$PROJECT_DIR$/college-ex-03/college-ex-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/college_ex_1/college_ex_1.iml" filepath="$PROJECT_DIR$/college_ex_1/college_ex_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-project.iml" filepath="$PROJECT_DIR$/java-project.iml" />
+    </modules>
+  </component>
+</project>

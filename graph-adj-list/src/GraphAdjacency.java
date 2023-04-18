@@ -1,13 +1,14 @@
 import org.w3c.dom.Node;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class GraphAdjacency {
-    List <List<NodeAdj>> adj = new ArrayList<>();
+    List <List<NodeAdj>> adj = new LinkedList<>();
     public GraphAdjacency(List < EdgeAdj > edges){
         for(int i=0;i<edges.size();i++){
-            adj.add(i, new ArrayList<>());
+            adj.add(i, new LinkedList<>());
         }
 
         for (EdgeAdj edge: edges){

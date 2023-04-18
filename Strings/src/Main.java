@@ -1,3 +1,5 @@
+import java.net.Socket;
+
 public class Main {
     public static void main(String[] args) {
         //byte
@@ -23,6 +25,7 @@ public class Main {
         double doubleNumber = 120.47d;
         lastString = lastString + doubleNumber;
         System.out.println("Last String is Equal to " + lastString); //all will be converted to a string;
+        Socket socket = new Socket();
 
     }
 }

@@ -3,6 +3,7 @@ import org.w3c.dom.Node;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class GraphAdjacency {
     List <List<NodeAdj>> adj = new LinkedList<>();
@@ -29,5 +30,14 @@ public class GraphAdjacency {
             System.out.println();
             src++;
         }
+    }
+
+    public void BFS(NodeAdj nodeInitial){
+        Queue<NodeAdj> queue = new LinkedList<>();
+        boolean visited[] = new boolean[adj.size()];
+        queue.add(nodeInitial);
+        visited[nodeInitial.value] = true;
+
+
     }
 }
